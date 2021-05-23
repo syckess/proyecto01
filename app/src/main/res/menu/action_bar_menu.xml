@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/add_item"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Agregar etiqueta"
+        app:showAsAction="ifRoom"
+    />
+    <item
+        android:id="@+id/add_image"
+        android:icon="@drawable/boton_imagen"
+        android:title="Agregar imagen"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/salir"
+        android:icon="@drawable/salir"
+        android:title="Salir de la APP"
+        app:showAsAction="ifRoom"
+        />
+</menu>
